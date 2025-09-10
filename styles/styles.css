@@ -1,0 +1,10 @@
+.squad-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 10em;
+}
+
+.squad-profile img {
+  border-radius: 50%;
+}
