@@ -134,11 +134,11 @@ body {
   border-radius: 12px;
   display:block;
 }
-.caption {
+.locatie {
   margin-top: 12px;
   font-size: 14px;
   line-height: 1.35;
-  color: #222;
+  color: black;
 }
 
 .dots {
@@ -152,12 +152,12 @@ body {
   height: 10px;
   border-radius: 999px;
   border: none;
-  background: #cfcfcf;
+  background: white;
   padding: 0;
   cursor: pointer;
 }
 .dots .dot.active {
-  background: #333;
+  background: black;
 }
 
 @media (max-width: 500px) {
