@@ -55,7 +55,6 @@ body {
   overflow-x: auto;
   overflow-y: hidden; 
   align-items: flex-start;
-  -webkit-overflow-scrolling: touch;
   touch-action: pan-x; 
 } 
 
@@ -99,7 +98,9 @@ body {
   margin-top: 6px;
   font-size: 12px;
   color: #333;
+  white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .posts {
@@ -111,7 +112,7 @@ body {
 
 .post {
   min-width: 100%;
-  padding: 14px;
+  padding: 8px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
