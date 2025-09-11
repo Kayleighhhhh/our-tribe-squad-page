@@ -64,7 +64,7 @@ body {
 }
 
 .stories::-webkit-scrollbar-track {
-  background: lightgray; 
+  background: white; 
   border-radius: 4px;
 }
 
