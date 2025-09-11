@@ -119,36 +119,19 @@ body {
   align-items: stretch;
   justify-content: flex-start;
 }
+
 .post img {
   width: 100%;
   height: auto;
   border-radius: 12px;
   display:block;
 }
+
 .locatie {
   margin-top: 12px;
   font-size: 14px;
   line-height: 1.35;
   color: black;
-}
-
-.dots {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  padding: 12px 0 18px;
-}
-.dots .dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 999px;
-  border: none;
-  background: white;
-  padding: 0;
-  cursor: pointer;
-}
-.dots .dot.active {
-  background: black;
 }
 
 @media (max-width: 500px) {
