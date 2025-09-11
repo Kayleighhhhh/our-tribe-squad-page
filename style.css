@@ -34,6 +34,12 @@ div {
     margin-top: -3em;
 }
 
+.icon {
+    width: 4em;
+    margin-left: 40%;
+    margin-bottom: .5em;
+}
+
 ul {
     display: flex;
     overflow: hidden;
@@ -83,6 +89,10 @@ ul {
 .name {
     margin-top: -0.1em;
     margin-left: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
 }
 
 /* section {
@@ -121,5 +131,10 @@ section {
     border-radius: 50%;
     background-color: black;
     margin-left: 44.5%;
-    margin-top: 1.5em;
+    margin-top: -.5em;
+}
+
+.campus {
+    width: 268px;
+    height: 188px;
 }
