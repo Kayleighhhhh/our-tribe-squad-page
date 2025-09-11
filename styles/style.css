@@ -64,17 +64,17 @@ body {
 }
 
 .stories::-webkit-scrollbar-track {
-  background: #f0f0f0; 
+  background: lightgray; 
   border-radius: 4px;
 }
 
 .stories::-webkit-scrollbar-thumb {
-  background: #bbb; 
+  background: lightgray; 
   border-radius: 4px;
 }
 
 .stories::-webkit-scrollbar-thumb:hover {
-  background: #888;
+  background: lightgray;
 }
 
 @media (max-width: 500px) {
@@ -93,7 +93,7 @@ body {
   height: 72px;
   border-radius: 100%;
   object-fit: cover;
-  border: 3px solid #ff4d6d;
+  border: 3px solid deeppink;
 }
 .story p {
   margin-top: 6px;
