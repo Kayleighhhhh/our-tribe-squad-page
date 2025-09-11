@@ -108,17 +108,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
 }
-.slider-viewport {
-  width: 100%;
-  overflow: hidden;
-  flex: 1 1 auto;
-}
-.slider {
-  display: flex;
-  transition: transform 0.35s ease;
-  will-change: transform;
-  height: 100%;
-}
+
 .post {
   min-width: 100%;
   padding: 14px;
