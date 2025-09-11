@@ -1,8 +1,11 @@
 .squad-container {
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: row;
-  width: 10em;
+  overflow: auto;
+  width: 14em;
+}
+.squad-profile {
+  margin-inline: 1em;
 }
 
 .squad-profile img {
