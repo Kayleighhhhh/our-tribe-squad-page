@@ -1,8 +1,11 @@
+main {
+  width: 50%;
+  align-self: center;
+}
 .squad-container {
   display: flex;
   flex-direction: row;
-  overflow: auto;
-  width: 14em;
+  overflow-x: scroll;
 }
 .squad-profile {
   margin-inline: 1em;
@@ -10,4 +13,15 @@
 
 .squad-profile img {
   border-radius: 50%;
+}
+.location-carousel-viewport {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+.location-carousel-slide {
+  list-style-type: none;
+  padding: 1.25em;
+  flex: 0 0 100%;
+  scroll-snap-align: center;
 }
