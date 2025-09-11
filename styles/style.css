@@ -1,0 +1,25 @@
+* {box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.phone {
+    width: 375px;
+    height: 650px;
+    border-radius: 45px;
+    background-color: black;
+    padding: 12px;
+    box-shadow: 0 20px 40px 0px black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
