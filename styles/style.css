@@ -11,7 +11,7 @@ body {
     padding: 25px;
     background-image: url(../assets/blurry-gradient-haikei.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 300%;
 }
 
 .phone {
@@ -85,17 +85,31 @@ body {
   }
 }
 
+.gradient {
+    background: #FCAF3C;
+    background: linear-gradient(45deg, rgba(252, 175, 60, 1) 0%, rgba(250, 11, 95, 1) 71%, rgba(252, 175, 60, 1) 100%);
+    border-radius: 100%;
+    width: 80px;
+    position: relative;
+    aspect-ratio: 1/1;
+}
+
 .story {
   flex: 0 0 auto;
   text-align: center;
   width: 72px;
 }
+
 .story img {
-  width: 72px;
-  height: 72px;
+  width: 75px;
+  /height: 70px;
   border-radius: 100%;
   object-fit: cover;
-  border: 3px solid deeppink;
+  /border: 3px solid;
+  position: absolute;
+  top:3px;
+  left:3px;
+  aspect-ratio: 1/1;
 }
 .story p {
   margin-top: 6px;
