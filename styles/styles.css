@@ -17,6 +17,8 @@ body {
 .squad-profile img {
   border-radius: 50%;
 }
+
+/* dit zorgd voor de snapping in de carousel en hoe het er uit ziet */
 .location-carousel-viewport {
   display: flex;
   overflow-x: scroll;
