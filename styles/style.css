@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@font-face{
+  font-family: inter;
+  src: url('../assets/Inter-VariableFont_opsz\,wght.ttf');
+}
+
 body {
     min-height: 100vh;
     display: flex;
@@ -116,6 +121,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family: inter;
 }
 
 .posts {
@@ -167,6 +173,7 @@ body {
   justify-content: flex-start;
   flex: 0 0 100%;
   scroll-snap-align: center;
+  font-family: inter;
 }
 
 .post img {
@@ -181,6 +188,7 @@ body {
   font-size: 14px;
   line-height: 1.35;
   color: black;
+  font-family: inter;
 }
 
 @media (max-width: 500px) {
