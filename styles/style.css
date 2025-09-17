@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@font-face{
+  font-family: inter;
+  src: url('../assets/Inter-VariableFont_opsz\,wght.ttf');
+}
+
 body {
     min-height: 100vh;
     display: flex;
@@ -47,14 +52,14 @@ body {
 }
 
 .logo {
-    height: 30px;
+    height: 40px;
     display: block;
 }
 
 .stories {
-  padding: 10px 12px;
+  padding: 15px 15px;
   display: flex;
-  gap: 12px;
+  gap: 30px;
   overflow-x: auto;
   overflow-y: hidden; 
   align-items: flex-start;
@@ -89,7 +94,7 @@ body {
     background: #FCAF3C;
     background: linear-gradient(45deg, rgba(252, 175, 60, 1) 0%, rgba(250, 11, 95, 1) 71%, rgba(252, 175, 60, 1) 100%);
     border-radius: 100%;
-    width: 80px;
+    width: 95px;
     position: relative;
     aspect-ratio: 1/1;
 }
@@ -101,7 +106,7 @@ body {
 }
 
 .story img {
-  width: 75px;
+  width: 90px;
   border-radius: 100%;
   object-fit: cover;
   position: absolute;
@@ -116,6 +121,7 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family: inter;
 }
 
 .posts {
@@ -167,6 +173,7 @@ body {
   justify-content: flex-start;
   flex: 0 0 100%;
   scroll-snap-align: center;
+  font-family: inter;
 }
 
 .post img {
@@ -181,6 +188,7 @@ body {
   font-size: 14px;
   line-height: 1.35;
   color: black;
+  font-family: inter;
 }
 
 @media (max-width: 500px) {
