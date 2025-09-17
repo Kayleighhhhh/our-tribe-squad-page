@@ -1,9 +1,14 @@
 
 # Squad page
+https://edu.nl/bncg3
 
-Ontwerp en maak met een team een Squad Page met HTML, CSS en JS.
+## beschrijving
+Om al onze mede studenten een beetje beter te leren kennen, en om het campus te verkennen, hebben wij, Emre, Rowan en Kayleigh, deze Squad Page gemaakt.
+geinspireerd door de layout van instagram hebben we alle mede-studenten als stories op de website geplaatst en als de berichten de fijnste plekken die wij hebben gevonden
 
-De instructie van deze leertaak staan in de [INSTRUCTIONS](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/INSTRUCTIONS.md)
+## kenmerken
+
+
 
 ## Licentie
 
