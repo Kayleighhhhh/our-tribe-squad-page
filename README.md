@@ -7,27 +7,56 @@ geinspireerd door de layout van instagram hebben we alle mede-studenten als stor
 
 Onze website is responsive.
 
-dit is de link naar onze website: https://edu.nl/bncg3
+Dit is de link naar onze website: https://edu.nl/bncg3
 
 ## Gebruik
-op de website staat een telefoon scherm met daarop een instagram layout. linksboven staat een logo die wij voor ons groepje gecreerd hebben. rechtsboven linkt het hartjes icoontje naar het visitekaart van onze squad met de meeste likes.
+Op de website staat een telefoon scherm met daarop een instagram layout. Linksboven staat een logo die wij voor ons groepje gecreerd hebben. Rechtsboven linkt het hartjes icoontje naar het visitekaart van onze squad met de meeste likes.
 
-#### Stories
+### Stories
 
-in de stories staan alle studenten van onze squad met een gradient border om de foto zoals het in instagram ook staat. daaronder staan de namen van de studenten. je kan hier doorheen scrollen om iedereen te zien.
+In de stories staan alle studenten van onze squad met een gradient border om de foto zoals het in instagram ook staat. Daaronder staan de namen van de studenten. Je kan hier doorheen scrollen om iedereen te zien.
 
-#### Posts
+### Posts
 
-hier staan onze favoriete locaties in en rond het campus met een kleine beschrijving erbij. door de puntjes eronder kan je zien naar welke post je aan het kijken ben.
+Hier staan onze favoriete locaties in en rond het campus met een kleine beschrijving erbij. Door de puntjes eronder kan je zien naar welke post je aan het kijken ben.
 
 ## Kenmerken
 
-de website is gebouwd met HTML en CSS.
+De website is gebouwd met HTML en CSS.
 
-#### HTML
+### HTML
 
+Hier staat de basisstructuur uigelegd met de settings in de head en de opmaak in de body.
 
+#### Head
 
+In de head staat de viewport, de link naar de stylesheet en de titel van onze Squad page.
+
+#### Body
+
+De structuur van de body is een hearder en twee sections.
+
+#### Header
+
+In de hearder staat ons logo en de icoontjes waaronder het hartje dat linkt naar het meest gelikete visitekaartje van onze squad.
+
+#### Section 1
+
+Hier staan alle foto's en namen van de studenten uit onze squad.
+
+#### Section 2.
+
+In de 2e section staan alle locaties, foto's van de locaties en bechrijvingen.
+
+### CSS
+
+In de CSS staat alle opmaak voor onze squad page. Alles staat gelinkt met classes.
+
+#### Breakpoint
+
+#### @media 500px
+
+Breakpoint waarbij het telefoon scherm zelf verdwijnt om de website op mobiel alleen de instagram layout te geven.
 
 ## Licentie
 
