@@ -7,6 +7,10 @@ geinspireerd door de layout van instagram hebben we alle mede-studenten als stor
 
 Onze website is responsive.
 
+![20250918_122828(1)](https://github.com/user-attachments/assets/5e64384e-5c40-48c7-a352-4a8f2d4d512e)
+
+![20250918_123333](https://github.com/user-attachments/assets/22d4bdd2-cb58-4e3f-9ab8-6a55aac1c53c)
+
 Dit is de link naar onze website: https://edu.nl/bncg3
 
 ## Gebruik
