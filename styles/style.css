@@ -47,7 +47,7 @@ body {
   height: 60px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 10px 15px;
   gap: 10px;
 }
@@ -55,6 +55,25 @@ body {
 .logo {
   height: 40px;
   display: block;
+}
+
+/* icons bij de header */
+.icon-link {
+  text-decoration: none;
+}
+
+.material-symbols-outlined {
+  color: black;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  transition: 0.5s;
+}
+.material-symbols-outlined:visited {
+  color: black;
+}
+
+.material-symbols-outlined:hover {
+  color: rgb(203, 16, 16);
+  font-variation-settings: "FILL" 1;
 }
 
 .stories {
